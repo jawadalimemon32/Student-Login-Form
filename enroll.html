@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memon Academy - Course Enrollment</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://play-lh.googleusercontent.com/qq0c98uSwy75mXoGfO84tPXzZM2APekjrKWxK9twYabVveImVCjpavR6AiHrMv12Gg=w600-h300-pc0xffffff-pd" alt="Memon Academy Logo">
+            <p>Memon Academy</p>
+        </div>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Student Login</a>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h2>Enroll in a Program</h2>
+        <p>Take the next step in your IT journey. Reserve your seat for upcoming course batches.</p>
+    </section>
+
+    <!-- Enrollment Form Container -->
+    <main class="contact-container">
+        
+        <!-- Left Side: Course Overview & Details -->
+        <section class="contact-info">
+            <h2>Enrollment Overview</h2>
+            <p class="subtitle">Complete the application form to secure your admission. Our team will get in touch within 24 hours.</p>
+
+            <div class="info-card">
+                <div class="info-item">
+                    <span class="icon">📅</span>
+                    <div>
+                        <h4>Upcoming Batch</h4>
+                        <p>Admissions Open for Next Month</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">⏱️</span>
+                    <div>
+                        <h4>Class Schedules</h4>
+                        <p>Flexible Morning & Evening Shifts</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span class="icon">💳</span>
+                    <div>
+                        <h4>Payment Methods</h4>
+                        <p>Bank Transfer / EasyPaisa / JazzCash</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Side: Enrollment Form -->
+        <section class="contact-form-box">
+            <h2>Student Application</h2>
+            <form id="enrollForm" action="#" method="post">
+                <div class="input-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter full name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter student email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone / WhatsApp Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. +92 300 1234567" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="course">Select Program</label>
+                    <select id="course" name="course" class="custom-select" required>
+                        <option value="" disabled selected>-- Choose Course --</option>
+                        <option value="web-dev">Web Development (HTML, CSS, JS)</option>
+                        <option value="cpp-dsa">Programming in C++ & DSA</option>
+                        <option value="python-ai">Python & Data Science Basics</option>
+                        <option value="academic">Academic Coaching & Viva Prep</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="shift">Preferred Shift</label>
+                    <select id="shift" name="shift" class="custom-select" required>
+                        <option value="evening" selected>Evening Shift</option>
+                        <option value="morning">Morning Shift</option>
+                    </select>
+                </div>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Memon Academy</h3>
+                <p>Your portal to modern IT training, programming excellence, and practical learning.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html">Student Login</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>📧 memonacademy@gmail.com</p>
+                <p>📍 Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Memon Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memon Academy - Student Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://play-lh.googleusercontent.com/qq0c98uSwy75mXoGfO84tPXzZM2APekjrKWxK9twYabVveImVCjpavR6AiHrMv12Gg=w600-h300-pc0xffffff-pd" alt="Memon Academy Logo">
+            <p>Memon Academy</p>
+        </div>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Student Login</a>
+        </nav>
+    </header>
+
+    <!-- Student Registration Container -->
+    <main class="main register-card">
+        <h2>Create Student Account</h2>
+        <p class="form-subtitle">Join Memon Academy to access courses and student portals.</p>
+
+        <form id="registerForm" action="#" method="post">
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="e.g. Ali Ahmed" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="username">User Name</label>
+                    <input type="text" id="username" name="username" placeholder="Choose username" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="student@example.com" required autocomplete="email">
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create password" required autocomplete="new-password">
+                </div>
+
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Repeat password" required autocomplete="new-password">
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+            </div>
+
+            <div class="row3">
+                <button type="submit">Create Account</button>
+            </div>
+
+        </form>
+
+        <div class="row4">
+            <p>Already have an account? <a href="login.html">Login Here</a></p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Memon Academy</h3>
+                <p>Your portal to modern IT training, programming excellence, and practical learning.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html">Student Login</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>📧 memonacademy@gmail.com</p>
+                <p>📍 Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Memon Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
