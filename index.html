@@ -3,64 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Memon Academy - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
 
-<div class="navbar">
-    <div class="logo">
-        <img src="https://play-lh.googleusercontent.com/qq0c98uSwy75mXoGfO84tPXzZM2APekjrKWxK9twYabVveImVCjpavR6AiHrMv12Gg=w600-h300-pc0xffffff-pd" alt="Memon Academy Logo">
-        <p>Memon Academy
-        </p>
-    </div>
-    <div class="links">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Our Services</a>
-        <a href="#">Career</a>
-        <a href="#">Contact Us</a>
-    </div>
-   
-</div>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://play-lh.googleusercontent.com/qq0c98uSwy75mXoGfO84tPXzZM2APekjrKWxK9twYabVveImVCjpavR6AiHrMv12Gg=w600-h300-pc0xffffff-pd" alt="Memon Academy Logo">
+            <p>Memon Academy</p>
+        </div>
+        <nav class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="register.html">Student Login</a>
+        </nav>
+    </header>
 
-<br>
-<hr>
-<br>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Master Modern IT & Web Development</h1>
+            <p>Empowering students with practical coding skills, modern frontend frameworks, academic support, and hands-on computer science training.</p>
+            <div class="hero-buttons">
+                <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+                <a href="services.html" class="btn btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
 
-<div class="main">
-    <h2>
-        Student Login Form
-    </h2>
-   
-    <img src="https://cdn-icons-png.flaticon.com/512/4661/4661334.png" alt="Login icon">
-<form id="loginForm" action="" method="post">
-    <div class="row1">
-        <label for="username">User Name</label>
-        <input type="text" id="username" name="username"  placeholder="Student User Name" required>
-    </div>
+    <!-- Quick Stats Bar -->
+    <section class="stats-bar">
+        <div class="stat-item">
+            <h3>500+</h3>
+            <p>Active Students</p>
+        </div>
+        <div class="stat-item">
+            <h3>10+</h3>
+            <p>IT Courses & Modules</p>
+        </div>
+        <div class="stat-item">
+            <h3>100%</h3>
+            <p>Practical Training</p>
+        </div>
+    </section>
 
-    <div class="row2">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Student Password" required>
-    </div>
+    <!-- Why Choose Us -->
+    <section class="features-section">
+        <h2>Why Study with Memon Academy?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3>Hands-On Projects</h3>
+                <p>Build real-world web applications and projects to elevate your personal GitHub portfolio.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎓</div>
+                <h3>Academic Coaching</h3>
+                <p>Receive targeted guidance on core computer science subjects, exam prep, and coding assignments.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Modern Tech Stack</h3>
+                <p>Learn updated technologies including HTML5, CSS3, JavaScript, C++, and Python essentials.</p>
+            </div>
+        </div>
+    </section>
 
-   
-    <div class="row3">
-       
-        <button type="submit">Login </button>
-    </div>
-   </form>
+    <!-- Services Preview Banner -->
+    <section class="cta-banner">
+        <h3>Ready to upgrade your skill set?</h3>
+        <p>Join our upcoming course batches or log in to access your student portal.</p>
+        <div class="hero-buttons">
+            <a href="register.html" class="cta-btn">Register Today</a>
+            <a href="contact.html" class="cta-btn" style="background: transparent; border: 1px solid white;">Contact Us</a>
+        </div>
+    </section>
 
-    <div class="row4">
-       
-        <p>Don't have an account? <a href="#">Register Now</a></p>
-    </div>
-   
-
-</div>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Memon Academy</h3>
+                <p>Your portal to modern IT training, programming excellence, and practical learning.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="services.html">Our Services</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="register.html">Student Login</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>📧 memonacademy@gmail.com</p>
+                <p>📍 Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Memon Academy. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
